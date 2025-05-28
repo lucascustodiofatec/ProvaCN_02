@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET;
 
 app.use(cors({
-  origin: 'https://provacn02-5jb16ib5v-lucas-projects-9b01cfe1.vercel.app',
+  origin: 'https://provacn02-qyz3c3hsw-lucas-projects-9b01cfe1.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
   credentials: true
