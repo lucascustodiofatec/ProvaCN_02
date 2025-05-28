@@ -38,7 +38,7 @@ export default function AlunoForm({ onVoltarLogin }) {
     }
 
     try {
-      const res = await fetch('http://localhost:3000/api/alunos', {
+      const res = await fetch('https://provacn-02.onrender.com/api/alunos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)

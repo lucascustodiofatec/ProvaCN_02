@@ -5,7 +5,7 @@ export default function ListaAlunos({ token, onLogout }) {
   const [erro, setErro] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/alunos', {
+    fetch('https://provacn-02.onrender.com/api/alunos', {
       headers: {
         Authorization: `Bearer ${token}`
       }
