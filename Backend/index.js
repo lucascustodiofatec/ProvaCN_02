@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const pool = require('./db');
 require('dotenv').config();
-app.use(cors({ origin: 'provacn02-5exkli202-lucas-projects-9b01cfe1.vercel.app' }));
+app.use(cors({ origin: 'provacn02-5jb16ib5v-lucas-projects-9b01cfe1.vercel.app' }));
 
 const app = express();
 const PORT = process.env.PORT || 3000;
