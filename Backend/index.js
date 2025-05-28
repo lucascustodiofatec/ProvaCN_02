@@ -13,7 +13,7 @@ const JWT_SECRET = process.env.JWT_SECRET;
 app.use(cors({
   origin: 'https://provacn02-qyz3c3hsw-lucas-projects-9b01cfe1.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
 app.use(express.json());
